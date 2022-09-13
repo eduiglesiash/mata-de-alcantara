@@ -4,17 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "18.2.0",
+    "react-photo-album": "1.16.1",
+    "yet-another-react-lightbox": "2.1.1"
   },
   "devDependencies": {
+    "autoprefixer": "10.4.8",
     "eslint": "8.23.0",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "postcss": "8.4.16",
+    "tailwindcss": "3.1.8"
   }
 }
