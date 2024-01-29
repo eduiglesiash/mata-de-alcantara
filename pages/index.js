@@ -31,9 +31,15 @@ export default function Home() {
             link="/erase-una-vez"
             sourceIMG="/assets/img/erase-una-vez.jpg" />
         </div>
+        <div className='project'>
+          <ProjectCard
+            title="Inscripciones Ruta Naharro 2024"
+            alt="Concentración de motos en la plaza de Mata de Alcántara"
+            link="https://forms.gle/aYMNGFSZyL47q6bs7"
+            sourceIMG="/assets/img/concentracion-plaza-llano.jpg" />
+        </div>
       </section>
-
-      <Dehesa/>
+      <Dehesa />
     </>
   )
 }

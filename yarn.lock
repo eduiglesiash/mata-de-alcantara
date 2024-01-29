@@ -335,7 +335,7 @@ ast-types-flow@^0.0.7:
 
 autoprefixer@10.4.8:
   version "10.4.8"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.8.tgz#92c7a0199e1cfb2ad5d9427bd585a3d75895b9e5"
+  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.8.tgz"
   integrity sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==
   dependencies:
     browserslist "^4.21.3"
@@ -1204,7 +1204,7 @@ isexe@^2.0.0:
 
 js-cookie@^2.2.1:
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  resolved "https://registry.npmjs.org/js-cookie/-/js-cookie-2.2.1.tgz"
   integrity sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==
 
 "js-tokens@^3.0.0 || ^4.0.0":
@@ -1586,7 +1586,7 @@ postcss@8.4.14:
 
 postcss@8.4.16, postcss@^8.4.14:
   version "8.4.16"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.16.tgz#33a1d675fac39941f5f445db0de4db2b6e01d43c"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.16.tgz"
   integrity sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
   dependencies:
     nanoid "^3.3.4"
@@ -1624,7 +1624,7 @@ quick-lru@^5.1.1:
 
 react-cookie-consent@^8.0.1:
   version "8.0.1"
-  resolved "https://registry.yarnpkg.com/react-cookie-consent/-/react-cookie-consent-8.0.1.tgz#83526a39c19be82872e9374c6fef98d05e12e5ba"
+  resolved "https://registry.npmjs.org/react-cookie-consent/-/react-cookie-consent-8.0.1.tgz"
   integrity sha512-4A2jzPQDFfBhtxIz4hYX+vJ0QnOknGdOXpEoetXzgwUrMtxVJVow8YgBsGerNt5rJI7WhKkHwr8LmxekxgVejg==
   dependencies:
     js-cookie "^2.2.1"
@@ -1644,7 +1644,7 @@ react-is@^16.13.1:
 
 react-photo-album@1.16.1:
   version "1.16.1"
-  resolved "https://registry.yarnpkg.com/react-photo-album/-/react-photo-album-1.16.1.tgz#46c9247326eafd5afc687b631459d45ba675f558"
+  resolved "https://registry.npmjs.org/react-photo-album/-/react-photo-album-1.16.1.tgz"
   integrity sha512-RNzqxSpAT7Vg5pOKlAETBCc5mfPwcgGl0DqwW5Z2FH79CDNIJBA/WNqInLVDZ1p4MqOciPrAS8z480tLUDsiYg==
 
 react@18.2.0:
@@ -1847,7 +1847,7 @@ supports-preserve-symlinks-flag@^1.0.0:
 
 tailwindcss@3.1.8:
   version "3.1.8"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.1.8.tgz#4f8520550d67a835d32f2f4021580f9fddb7b741"
+  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.1.8.tgz"
   integrity sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==
   dependencies:
     arg "^5.0.2"
@@ -2004,7 +2004,7 @@ yaml@^1.10.2:
 
 yet-another-react-lightbox@2.1.1:
   version "2.1.1"
-  resolved "https://registry.yarnpkg.com/yet-another-react-lightbox/-/yet-another-react-lightbox-2.1.1.tgz#8458ddd4d8f07c9aac0bdae4dccf10fcac39512d"
+  resolved "https://registry.npmjs.org/yet-another-react-lightbox/-/yet-another-react-lightbox-2.1.1.tgz"
   integrity sha512-rFpScZExQ024mqVkNCasgquMvxRSp+HPuxa2MtXxSIeI0t1fewidPm3mE9RHlh2EiEiNpct+5PwO9GKkUwi9HA==
 
 yocto-queue@^0.1.0:
