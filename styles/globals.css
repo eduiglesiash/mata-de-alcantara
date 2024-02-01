@@ -119,6 +119,12 @@ h6 {
 	transform: translateY(40%);
 	cursor: default;
 }
+.jumbotron__logo {
+	position: absolute;
+	bottom: -27px;
+	left: 25px;
+	width: 65px;
+}
 
 .saludo {
 	padding: 16px;
@@ -134,6 +140,7 @@ h6 {
 	padding: 16px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	margin-bottom: 32px;
 }
@@ -279,6 +286,29 @@ a.footer__text:focus {
 	background-color: grey;
 }
 
+.video-youtube {
+	max-width: 650px;
+	min-width: 480px;
+}
+.video-container {
+	height: 0;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	aspect-ratio: auto 1/7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 @media all and (min-width: 768px) {
 	.consent__container {
 		position: fixed;
@@ -301,9 +331,9 @@ a.footer__text:focus {
 		font-size: 14px;
 	}
 
-	.project {
+	/* .project {
 		align-items: flex-start;
-	}
+	} */
 	.project-card {
 		width: 300px;
 	}
@@ -319,6 +349,11 @@ a.footer__text:focus {
 	.jumbotron__shield {
 		width: 60px;
 		right: 60px;
+	}
+	.jumbotron__logo {
+		bottom: -41px;
+		left: 53px;
+		width: 90px;
 	}
 	.dehesa__title {
 		font-size: 64px;
@@ -345,6 +380,11 @@ a.footer__text:focus {
 	.jumbotron__shield {
 		width: 70px;
 		right: 70px;
+	}
+	.jumbotron__logo {
+		bottom: -48px;
+		left: 76px;
+		width: 114px;
 	}
 	.dehesa__title {
 		font-size: 96px;
@@ -389,6 +429,11 @@ a.footer__text:focus {
 	.jumbotron__shield {
 		width: 90px;
 		right: 90px;
+	}
+	.jumbotron__logo {
+		bottom: -72px;
+		left: 110px;
+		width: 150px;
 	}
 	.dehesa__pic {
 		max-height: 495px;

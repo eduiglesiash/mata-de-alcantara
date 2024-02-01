@@ -21,22 +21,30 @@ export default function Home() {
         <picture>
           <img className="jumbotron__shield" src="/assets/img/mata-de-alcantara-escudo.png" alt="Escudo de Mata de Alcántara" />
         </picture>
+        <picture>
+          <img className="jumbotron__logo" src="/assets/img/escudo-equinocio.png" alt="Escudo del equinocio de Mata de Alcántara" />
+        </picture>
       </section>
 
       <section className="project">
-        <div className='project'>
+        {/* <div className='project'>
           <ProjectCard
             title="Érase una vez"
             alt="Imagen del proyecto Erase una vez"
             link="/erase-una-vez"
             sourceIMG="/assets/img/erase-una-vez.jpg" />
-        </div>
+        </div> */}
         <div className='project'>
           <ProjectCard
             title="Inscripciones Ruta Naharro 2024"
             alt="Concentración de motos en la plaza de Mata de Alcántara"
             link="https://forms.gle/aYMNGFSZyL47q6bs7"
             sourceIMG="/assets/img/concentracion-plaza-llano.jpg" />
+          <div className="video-youtube">
+            <div className="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8zZypicDsA4?si=9bAQizP01cRFGtxd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </section>
       <Dehesa />
